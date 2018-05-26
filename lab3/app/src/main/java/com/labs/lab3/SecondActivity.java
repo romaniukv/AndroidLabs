@@ -20,8 +20,8 @@ public class SecondActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView);
 
         SQLiteDatabase db = getBaseContext().openOrCreateDatabase("app.db", MODE_PRIVATE, null);
-        db.execSQL("CREATE TABLE IF NOT EXISTS questions (result TEXT)");
-        Cursor query = db.rawQuery("SELECT * FROM questions;", null);
+        db.execSQL("CREATE TABLE IF NOT EXISTS telephones (result TEXT)");
+        Cursor query = db.rawQuery("SELECT * FROM telephones;", null);
 
         if(query.moveToFirst()){
             do{

@@ -9,18 +9,19 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.labs.lab3.InputFragment"
+        android:name="com.labs.lab3.Fragment1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
+        android:layout_marginBottom="17dp"
         app:layout_constraintBottom_toTopOf="@+id/resultFragment"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.androidlabs.lab3.Result"
+        android:name="com.labs.lab3.Fragment2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

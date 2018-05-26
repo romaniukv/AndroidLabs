@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">Lab1</string>
-    <string name="enterQuestion">Введіть питання:</string>
-    <string name="chooseRightAnswer">Оберіть правильну відповідь:</string>
+    <string name="app_name">Lab3</string>
+    <string name="FirmTextView">Фірма:</string>
+    <string name="TelephoneTypeTextView">Тип телефону:</string>
     <string name="okButton">OK</string>
-    <string name="Yes">Так</string>
-    <string name="No">Ні</string>
-    <string name="show_database">Show database</string>
+    <string name="DBButton">View database</string>
 </resources>
