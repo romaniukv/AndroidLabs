@@ -36,6 +36,7 @@ public class Fragment2 extends Fragment {
 
     }
 
+
     public void setText(int selectedFirm, int selectedTelephoneType) {
         TextView resultTextView = getView().findViewById(R.id.resultTextView);
         resultTextView.setText(Data.getFirmTelephoneNumber(Data.getFirms().get(selectedFirm),
